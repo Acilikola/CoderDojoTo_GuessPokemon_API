@@ -1,0 +1,19 @@
+<div id="app">
+  <div id="controlDiv">
+    <input type="button" value="Random" onclick="getNewRandomPokemon()"/>
+  </div>
+  <div class="row">
+    <div id="shadowDiv" class="column">
+      <img width="300px" height="300" id="shadowImg">
+    </div>
+    <div id="wrongGuessDiv" class="column">
+      <ul id="wrongGuessList">
+      </ul>
+    </div>
+  </div>
+	<div id="guessDiv">
+			<input id="guess" type="text"/>
+			<input type="button" value="Guess" onclick="verifyPokemon()"/>
+  </div>
+  <p id="cheatTxt"></p>
+</div>

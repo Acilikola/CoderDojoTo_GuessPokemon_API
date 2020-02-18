@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#shadowImg {
+  filter: brightness(0);
+}
+
+#shadowImg.reveal {
+  filter: none;
+}
+
+#wrongGuessList > li {
+  color: red;
+}
+
+input {
+  border: 1px solid;
+}
+
+#cheatTxt {
+  opacity: 0;
+}
+
+#cheatTxt:hover {
+  opacity: 1;
+}
